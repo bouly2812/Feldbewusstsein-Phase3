@@ -2,7 +2,7 @@
 
 ![Feldbewusstsein Architektur](feldbewusstsein_architektur.png)
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE.md)
 [![Python](https://img.shields.io/badge/Python-3.11%2B-brightgreen.svg)](src/python/prueflauf_runner.py)
 [![C++](https://img.shields.io/badge/C%2B%2B-17-orange.svg)](src/cpp/kopplungs_kern.cpp)
 [![Status](https://img.shields.io/badge/Status-Field%20Prototype-informational.svg)](PROTOCOL.md)
