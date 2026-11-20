@@ -43,13 +43,12 @@ Mit den Standardgewichten $w_{\rho} = 0.4$, $w_{\Psi} = 0.4$ und $w_{\text{int}}
 ## 4. Repository-Struktur
 
 ```text
-Phase 3/
+Feldbewusstsein-Phase3/
 ├── .gitignore
 ├── LICENSE.md
 ├── PROTOCOL.md
 ├── README.md
 ├── feldbewusstsein_architektur.png
-├── requirements.txt
 ├── cpbasic/
 │   └── strang3_kopplung.cpb
 ├── docs/
