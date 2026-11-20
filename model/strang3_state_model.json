@@ -1,0 +1,41 @@
+{
+  "model_id": "K-1371-VLS-FELDBEWUSSTSEIN-STRANG3",
+  "version": "1.1.0",
+  "concept": "Feldbewusstsein",
+  "state_transition": "Z(t) -> Z(t+1)",
+  "timing": {
+    "t_base_sec": 10.0,
+    "t_coup_sec": 20.0,
+    "t_post_sec": 10.0,
+    "sample_rate_hz": 100.0
+  },
+  "environment_and_artifacts": {
+    "shielded_field_mode": true,
+    "open_coupling_enabled": false,
+    "metallic_interference_noted": false,
+    "max_extern_coupling": 0.85,
+    "min_psi_for_internal_transition": 0.35
+  },
+  "parameters": {
+    "rho_energy_density": {
+      "description": "Normierte lokale oder systemische Energiedichte",
+      "min_baseline": 0.0,
+      "max_scale": 1.0
+    },
+    "psi_field_resonance": {
+      "description": "Feld-, Phasen- oder Resonanzkopplung im System/Raum",
+      "min_baseline": 0.0,
+      "max_scale": 1.0
+    },
+    "coupling_c": {
+      "formula": "c = clamp(w_rho * rho + w_psi * psi + w_inter * rho * psi, 0.0, 1.0)",
+      "weights": {
+        "w_rho": 0.4,
+        "w_psi": 0.4,
+        "w_inter": 0.2
+      },
+      "transition_threshold": 0.72,
+      "persistence_steps": 5
+    }
+  }
+}
