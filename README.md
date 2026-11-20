@@ -34,7 +34,7 @@ Ein formalisierter, feld- und kopplungstheoretischer Rahmen zur Untersuchung von
 
 Die wirksame Kopplung ergibt sich aus normierter Energiedichte $\rho \in [0,1]$, Feld-/Resonanzkopplung $\Psi \in [0,1]$ und ihrem Wechselwirkungsterm:
 
-$$c(\rho, \Psi) = \operatorname{clip}\!\left(w_{\rho}\rho + w_{\Psi}\Psi + w_{\text{int}}\rho\Psi,\, 0,\, 1\right)$$
+$$c(\rho, \Psi) = \mathrm{clip}\!\left(w_{\rho}\rho + w_{\Psi}\Psi + w_{\text{int}}\rho\Psi,\, 0,\, 1\right)$$
 
 Mit den Standardgewichten $w_{\rho} = 0.4$, $w_{\Psi} = 0.4$ und $w_{\text{int}} = 0.2$ sowie der Schwelle $\theta_c = 0.72$ über `persistence_steps = 5` wird ein Zustandsschritt $Z \to Z+1$ nur bei artefaktfreier Persistenz ausgelöst.
 
@@ -47,9 +47,9 @@ Phase 3/
 ├── .gitignore
 ├── LICENSE.md
 ├── PROTOCOL.md
-├── README.md               <-- Mit Verweis auf das Bild
-├── feldbewusstsein_architektur.png  <-- Das Bild liegt hier
-├── requirements.txt        <-- Gibt GitHub das Python-Stack-Signal
+├── README.md
+├── feldbewusstsein_architektur.png
+├── requirements.txt
 ├── cpbasic/
 │   └── strang3_kopplung.cpb
 ├── docs/
