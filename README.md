@@ -40,6 +40,25 @@ Mit den Standardgewichten $w_{\rho} = 0.4$, $w_{\Psi} = 0.4$ und $w_{\text{int}}
 
 ---
 
+## Projektverbund & Verknuepfte Repositories / Project Ecosystem & Related Repositories
+
+Dieses Repository bildet die experimentelle und numerische Pruefebene (Phase 3) innerhalb eines zusammenhaengenden Forschungs- und Entwicklungsrahmens.
+This repository represents the experimental and numerical verification layer (Phase 3) within an interconnected research and development framework.
+
+- **Mathematisch-physikalisches Fundament / Theoretical & Hardware Foundation:**
+  [CPBasic-Limen-Emergenz](https://github.com/bouly2812/CPBasic-Limen-Emergenz)
+  (Limen-Theorem, dissipative Thermodynamik, Hardware-Kernel und Sensorik-Architektur / Limen Theorem, dissipative thermodynamics, hardware kernel, and sensor architecture)
+
+- **System- & Kooperationsarchitektur / System & Cooperation Architecture:**
+  [KI-Symbiose](https://github.com/bouly2812/KI-Symbiose)
+  (Uebergeordnete Feld- und Symbiose-Struktur / Overarching field and symbiosis framework)
+
+### Aktueller Modellstand / Current Model State (v2)
+- Leerlaufpotential / Idle potential: `c0 = 0.8131` (`t = 5.0`)
+- Stabiler Betriebspunkt / Settled operating point: `c_B = 0.5834` (`t = 7.5`)
+- Normierte Grundlast & Innenwiderstand / Nominal load & internal resistance: `R_last = 1.00`, `R_i = 0.3937`
+- Kritischer Kipppunkt / Critical stall limit: `R_i_krit = 2.3879` (~6.06x Reserve)
+ 
 ## 4. Repository-Struktur
 
 ```text
